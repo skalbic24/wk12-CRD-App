@@ -1,0 +1,72 @@
+body{
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+
+.card {
+    border: solid red 2px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#results {
+    border: solid blue 2px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.poster {
+    width: 15vw;
+}
+
+
+button {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+  }
+  
+  button:hover {
+    background-color: #45a049; 
+  }
+  
+  #searchButton {
+    background-color: #008CBA; 
+    color: white; 
+  }
+  
+  #searchButton:hover {
+    background-color: #006F8F; 
+  }
+  
+  #updateLastAdded {
+    background-color: #FFA500; 
+    color: white; 
+  }
+  
+  #updateLastAdded:hover {
+    background-color: #FF8C00; 
+  }
+  
+  #deleteLastAdded {
+    background-color: #FF0000;
+    color: white; 
+  }
+  
+  #deleteLastAdded:hover {
+    background-color: #B22222;
+  }

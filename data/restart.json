@@ -1,0 +1,58 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "Title": "The Avengers",
+        "Year": "2012",
+        "Poster": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqse_XSnkijWzY_FQrPgTiclx516ebb8npng8GBgTGiUBtJdth"
+      },
+      {
+        "id": 2,
+        "Title": "Jumanji",
+        "Year": "2017",
+        "Poster": "https://m.media-amazon.com/images/I/9132vbg-HLL._AC_UF894,1000_QL80_.jpg"
+      },
+      {
+        "id": 3,
+        "Title": "Star Wars",
+        "Year": "2000",
+        "Poster": "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/star_wars_logo.png"
+      },
+      {
+        "id": "4",
+        "Title": "Uncharted",
+        "Year": "2022",
+        "Poster": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Uncharted_Official_Poster.jpg/220px-Uncharted_Official_Poster.jpg"
+      },
+      {
+        "id": "865c",
+        "Title": "Home Alone",
+        "Year": "2024",
+        "Poster": "https://via.placeholder.com/300"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "Sanel",
+        "favoriteMovieId": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Emin",
+        "favoriteMovieId": [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Elvedin",
+        "favoriteMovieId": [
+          2
+        ]
+      }
+    ]
+  }
